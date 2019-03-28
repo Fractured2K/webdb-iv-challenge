@@ -12,7 +12,7 @@ exports.up = function(knex, Promise) {
 		tbl.integer("ingredient_id")
 			.notNullable()
 			.references("id")
-			.inTable("ingredient")
+			.inTable("ingredients")
 			.onDelete("CASCADE")
 			.onUpdate("CASCADE");
 
