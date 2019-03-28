@@ -5,7 +5,6 @@ exports.seed = function(knex) {
 		{ ingredient_name: "Fettuccine pasta" },
 		{ ingredient_name: "Mozzarella Cheese" },
 		{ ingredient_name: "Parmesan cheese" },
-		{ ingredient_name: "Ziti pasta" },
-		{ ingredient_name: "Homemade Pizza" }
+		{ ingredient_name: "Ziti pasta" }
 	]);
 };
