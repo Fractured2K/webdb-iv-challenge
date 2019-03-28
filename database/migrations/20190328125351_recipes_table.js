@@ -6,6 +6,8 @@ exports.up = function(knex) {
 			.notNullable()
 			.unique();
 
+		tbl.text("instructions", 999).notNullable();
+
 		tbl.integer("dish_id")
 			.unsigned()
 			.references("id")
