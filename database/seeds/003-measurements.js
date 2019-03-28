@@ -1,5 +1,5 @@
 exports.seed = function(knex) {
-	return knex("dishes").insert([
+	return knex("measurements").insert([
 		{ measurement_name: "tsp" },
 		{ measurement_name: "tbsp" },
 		{ measurement_name: "cups" },
