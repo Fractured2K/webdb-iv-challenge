@@ -1,0 +1,26 @@
+{
+  "name": "webdb-iv-challenge",
+  "version": "1.0.0",
+  "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fractured2K/webdb-iv-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fractured2K/webdb-iv-challenge/issues"
+  },
+  "homepage": "https://github.com/Fractured2K/webdb-iv-challenge#readme",
+  "dependencies": {
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6"
+  },
+  "devDependencies": {
+    "knex-cleaner": "^1.1.4"
+  }
+}
